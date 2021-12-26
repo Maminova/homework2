@@ -10,26 +10,29 @@ public class Main {
         System.out.println(box);
         box = box - 3;
         System.out.println(box);
+        // Задание 1
         byte apples = 50;
         System.out.println("Яблоки" + apples + "кг");
         short tomatoes = 300;
         System.out.println("Помидоры" + tomatoes + "кг");
-        int a = 3;
-        System.out.println(a);
-        long c = 3000L;
-        System.out.println(c);
-        float h = 12.23f;
-        System.out.println(h);
-        double v = 15.1234;
-        System.out.println(v);
+        int bananas = 3;
+        System.out.println("Бананы" + bananas + "кг");
+        long potatoes = 3000L;
+        System.out.println("Картошка" + potatoes + "кг");
+        float cucumbers = 12.23f;
+        System.out.println("Огурцы" + cucumbers + "кг");
+        double peppers = 15.1234;
+        System.out.println("Перцы" + peppers + "кг");
+        // Задание 2
         float first = 78.2f;
         float second = 82.7f;
         float result = first + second;
         System.out.println("first + second = " + result);
         float weight = 82.7f - 78.2f;
         System.out.println("Разница" + weight);
-        int bananas = 5 * 80;
-        System.out.println("Общий вес" + bananas);
+       // Задание 3
+        int varAble = 5 * 80;
+        System.out.println("Общий вес" + varAble);
         int milk = 105 * 2;
         System.out.println("Общий вес" + milk);
         int iceCream = 100 * 2;
@@ -42,12 +45,14 @@ public class Main {
         System.out.println("Перевести в кг" + kg);
         long grams = 7 * 1000;
         System.out.println("Переведем в граммы" + grams);
+       // Задание 4
         int days = 7000 / 250;
         System.out.println("Дней" + days);
         int days1 = 7000/500;
         System.out.println("Дней1" + days1);
         int medium = (28 + 114) / 2;
         System.out.println("Дней в среднем" + medium);
+       // Задание 5
         long masha = (67760 * 10) / 100;
         System.out.println("10%" + masha);
         long denis = (83690 * 10) / 100;
